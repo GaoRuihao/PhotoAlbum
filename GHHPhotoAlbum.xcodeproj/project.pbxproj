@@ -193,7 +193,7 @@
 				TargetAttributes = {
 					A02304341E4DB096002273E0 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = J95392EN9S;
+						DevelopmentTeam = 26676U96B8;
 						ProvisioningStyle = Automatic;
 					};
 					A02304481E4DB096002273E0 = {
@@ -415,8 +415,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = J95392EN9S;
+				DEVELOPMENT_TEAM = 26676U96B8;
 				INFOPLIST_FILE = GHHPhotoAlbum/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gaohaohao.GHHPhotoAlbum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,8 +429,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = J95392EN9S;
+				DEVELOPMENT_TEAM = 26676U96B8;
 				INFOPLIST_FILE = GHHPhotoAlbum/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gaohaohao.GHHPhotoAlbum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
