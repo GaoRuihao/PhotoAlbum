@@ -16,6 +16,8 @@
 		A02304591E4DB096002273E0 /* GHHPhotoAlbumUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02304581E4DB096002273E0 /* GHHPhotoAlbumUITests.swift */; };
 		A02304671E4DB60D002273E0 /* AlbumManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02304661E4DB60D002273E0 /* AlbumManager.swift */; };
 		A02304691E4DB954002273E0 /* CollectionViewController+Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02304681E4DB954002273E0 /* CollectionViewController+Addition.swift */; };
+		A07377751E515DCB003A1809 /* GHHPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07377741E515DCB003A1809 /* GHHPhotoViewController.swift */; };
+		A0BE9A981E5155D6004006CE /* GHHImageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BE9A971E5155D6004006CE /* GHHImageItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		A023045A1E4DB096002273E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A02304661E4DB60D002273E0 /* AlbumManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumManager.swift; sourceTree = "<group>"; };
 		A02304681E4DB954002273E0 /* CollectionViewController+Addition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CollectionViewController+Addition.swift"; sourceTree = "<group>"; };
+		A07377741E515DCB003A1809 /* GHHPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHHPhotoViewController.swift; sourceTree = "<group>"; };
+		A0BE9A971E5155D6004006CE /* GHHImageItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GHHImageItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +107,9 @@
 			children = (
 				A02304381E4DB096002273E0 /* AppDelegate.swift */,
 				A023043A1E4DB096002273E0 /* ViewController.swift */,
+				A07377741E515DCB003A1809 /* GHHPhotoViewController.swift */,
 				A02304661E4DB60D002273E0 /* AlbumManager.swift */,
+				A0BE9A971E5155D6004006CE /* GHHImageItem.swift */,
 				A02304681E4DB954002273E0 /* CollectionViewController+Addition.swift */,
 				A023043C1E4DB096002273E0 /* Main.storyboard */,
 				A023043F1E4DB096002273E0 /* Assets.xcassets */,
@@ -271,7 +277,9 @@
 				A02304691E4DB954002273E0 /* CollectionViewController+Addition.swift in Sources */,
 				A023043B1E4DB096002273E0 /* ViewController.swift in Sources */,
 				A02304391E4DB096002273E0 /* AppDelegate.swift in Sources */,
+				A07377751E515DCB003A1809 /* GHHPhotoViewController.swift in Sources */,
 				A02304671E4DB60D002273E0 /* AlbumManager.swift in Sources */,
+				A0BE9A981E5155D6004006CE /* GHHImageItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +532,7 @@
 				A023045F1E4DB096002273E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A02304601E4DB096002273E0 /* Build configuration list for PBXNativeTarget "GHHPhotoAlbumTests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +541,7 @@
 				A02304621E4DB096002273E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A02304631E4DB096002273E0 /* Build configuration list for PBXNativeTarget "GHHPhotoAlbumUITests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +550,7 @@
 				A02304651E4DB096002273E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

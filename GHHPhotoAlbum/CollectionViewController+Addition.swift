@@ -40,3 +40,43 @@ extension UIViewController {
         return false
     }
 }
+
+extension UIView {
+    var height: CGFloat {
+        set(h) {
+            self.frame.size.height = h
+        }
+        get {
+            return self.frame.size.height
+        }
+    }
+    
+    var width: CGFloat {
+        set(w) {
+            self.frame.size.width = w
+        }
+        get {
+            return self.frame.size.height
+        }
+    }
+    
+    var originX: CGFloat {
+        set(new) {
+            self.frame.origin.x = new
+        }
+        get {
+            return self.frame.origin.x
+        }
+    }
+    
+    var originY: CGFloat {
+        set(new) {
+            self.frame.origin.y = new
+        }
+        get {
+            return self.frame.origin.y
+        }
+    }
+    
+    
+}
